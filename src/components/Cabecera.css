@@ -1,0 +1,31 @@
+header {
+  background: linear-gradient(90deg, rgba(97,15,242,1) 0%, rgba(85,9,121,0.45523661124606096) 100%, rgba(0,217,255,1) 100%);
+  color: darkblue;
+  padding: 20px 40px;
+  text-align: end;
+    
+}
+header h1{
+  margin-bottom: 10px;
+}
+
+header p span {
+  background-color: rgb(109, 30, 175);
+  border-radius: 4px;
+  color: white;
+  font-weight: bolder;
+  margin-left: 5px;
+  padding: 3px 5px;
+}
+p{
+  font-size: 20px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+header img{
+  width: 50px;
+  color:darkblue;
+  padding: 5px;
+}

@@ -1,0 +1,76 @@
+.producto {
+  background-color: #54c0be;
+  border: 0.5px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 6px 6px rgba(4, 77, 85, 0.5);
+  color: darkblue;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+  padding: 20px;
+  width: 33%;
+}  
+
+.producto h5{
+  font-size: 17px;
+  margin: 15px;
+  text-align: center;    
+  
+}
+
+.producto h5 span{
+  background-color: darkgrey;
+  border-radius: 3px;
+  font-weight: bolder;
+  padding: 5px;
+}
+
+.btn{
+  background-color: cadetblue;
+  border: 2px solid aquamarine;
+  border-radius: 8px;
+  box-shadow: 6px 6px rgba(0,0,0,0.5);
+  color: yellow;
+  font-size: 25px;
+  padding: 5px;
+  place-content: center;
+  text-transform: uppercase;
+}
+
+.btn:hover{
+  background-color: rgba(51, 138, 185, 0.897);
+}
+
+.btnDis{
+  background-color: darkgray;
+  border: 2px solid aquamarine;
+  border-radius: 8px;
+  color: grey;
+  font-size: 25px;
+  padding: 5px;
+  place-content: center;
+  text-transform: uppercase;
+}
+
+.producto p{
+  text-align: justify;
+}
+
+.producto img{
+  display: block;
+  margin: auto;
+  width: 150px;
+}
+
+.producto h3{
+  color: purple;
+  font-size: 25px;
+  margin: 10px;
+  text-align: center;
+}
+
+
+
+
+  
